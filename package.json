@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/andppires/pipeline-ci-cd/issues"
   },
-  "homepage": "https://github.com/andppires/pipeline-ci-cd#readme"
+  "homepage": "https://github.com/andppires/pipeline-ci-cd#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
