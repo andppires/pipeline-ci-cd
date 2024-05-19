@@ -1,7 +1,7 @@
 {
   "name": "pipeline-ci-cd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto para demonstração de uma pipeline de CI/CD utilizando GitHub Actions",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/andppires/pipeline-ci-cd.git"
   },
-  "author": "",
+  "author": "Seu Nome",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andppires/pipeline-ci-cd/issues"
