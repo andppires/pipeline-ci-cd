@@ -7,7 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
   },
   "repository": {
     "type": "git",
@@ -18,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/andppires/pipeline-ci-cd/issues"
   },
-  "homepage": "https://github.com/andppires/pipeline-ci-cd#readme",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "homepage": "https://github.com/andppires/pipeline-ci-cd#readme"
 }
