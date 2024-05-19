@@ -1,5 +1,4 @@
 # pipeline-ci-cd
-
 Pipeline de CI/CD com GitHub Actions e Testes Automatizados
 Este repositório contém um projeto simples para demonstrar a configuração de uma pipeline de integração contínua/entrega contínua (CI/CD) utilizando GitHub Actions, juntamente com testes automatizados.
 
@@ -52,4 +51,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests c
 
 Licença
 Este projeto é licenciado sob a licença ISC. Consulte o arquivo LICENSE para obter mais informações.
-
