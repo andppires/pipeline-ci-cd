@@ -1,5 +1,3 @@
-# ci_cd_pipeline.yml
-
 name: CI/CD Pipeline
 
 on:
@@ -28,3 +26,12 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Upload test coverage
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage
+          path: coverage
+
+      - name: Deploy to production
+        # Add your deployment steps here
